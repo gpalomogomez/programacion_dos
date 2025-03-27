@@ -1,5 +1,3 @@
-package tp1;
-
 import java.util.Scanner;
 
 public class ejercicio8 {
@@ -28,7 +26,11 @@ public class ejercicio8 {
                     saldo = setSaldo(saldo,input);
                     break;
                 case 3 :
+                    saldo = removeSaldo(saldo,input);
+                    break;
+                case 4 :
                     salir = false;
+                    break;
                 default:
                     System.out.println("error");
             }
@@ -41,6 +43,10 @@ public class ejercicio8 {
 
     static double setSaldo(Double saldo,Scanner input) {
         return input.nextDouble() + saldo;
+    }
+
+    static double removeSaldo(Double saldo,Scanner input) {
+        return saldo - input.nextDouble();
     }
 
 
