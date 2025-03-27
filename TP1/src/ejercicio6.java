@@ -9,7 +9,7 @@ public class ejercicio6 {
         int nota = input.nextInt();
 
         if (nota < 1 || nota > 10) {
-            System.out.println("El numero introducido no es valido");
+            System.out.println("El número introducido no es valido");
         }else{
             if (nota >= 1 && nota <= 3) {
                 System.out.println("Insuficiente");

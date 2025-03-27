@@ -5,7 +5,7 @@ public class ejercicio2 {
 
         boolean esPrimo = true;
         Scanner input = new Scanner(System.in);
-
+        System.out.println("Ingrese un número: ");
         int numero = input.nextInt();
 
         for(int i = 2; i<numero-1;i++){
@@ -15,6 +15,6 @@ public class ejercicio2 {
             }
         }
 
-        System.out.println("El numero: "+ numero +" " + ((esPrimo) ? "Es primo" : "No es primo"));
+        System.out.println("El número: "+ numero +" " + ((esPrimo) ? "Es primo" : "No es primo"));
     }
 }
